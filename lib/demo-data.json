@@ -1,0 +1,14 @@
+{
+  "categories": [
+    { "id": 1, "name": "Peralatan Kantor" },
+    { "id": 2, "name": "Komputer & IT" },
+    { "id": 3, "name": "Peralatan Operasional" }
+  ],
+  "assets": [
+    { "asset_number": "DEMO-001", "name": "Laptop Operasional", "category_id": 2, "location": "Ruang Administrasi", "function_status": "Baik", "performance_status": "Optimal", "status_approval": "Approved" },
+    { "asset_number": "DEMO-002", "name": "Printer Multifungsi", "category_id": 1, "location": "Ruang Administrasi", "function_status": "Rusak", "performance_status": "Tidak Optimal", "status_approval": "Approved" },
+    { "asset_number": "DEMO-003", "name": "Troli Barang", "category_id": 3, "location": "Gudang A", "function_status": "Baik", "performance_status": "Optimal", "status_approval": "Approved" },
+    { "asset_number": "DEMO-004", "name": "Monitor 24 Inci", "category_id": 2, "location": "Ruang Produksi", "function_status": "Baik", "performance_status": "Optimal", "status_approval": "Pending" },
+    { "asset_number": "DEMO-005", "name": "Lemari Arsip", "category_id": 1, "location": "Ruang Arsip", "function_status": "Tidak Ada Fisik", "performance_status": "Tidak Optimal", "status_approval": "Approved" }
+  ]
+}

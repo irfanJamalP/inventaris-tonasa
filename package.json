@@ -1,0 +1,31 @@
+{
+  "name": "inventaris-tonasa-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001 --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "build:demo": "node scripts/build-demo.mjs",
+    "seed:demo": "node --env-file-if-exists=.env.local scripts/seed-demo.cjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "next": "16.2.7",
+    "pg": "^8.22.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "three": "^0.184.0",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": "22.x || 24.x"
+  }
+}
